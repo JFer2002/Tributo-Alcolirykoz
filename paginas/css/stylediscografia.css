@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.Barra-de-navegacion-discografia{
+    width: 100%;
+    height: 30vh;
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+}
+.Barra-de-navegacion-discografia h1{
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.Barra-de-navegacion-discografia a{
+    font-size: 30px;
+}
+
+.barra-2-discografia{
+    width: 100%;
+    display: flex;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 2%;
+    list-style-type: none;
+}
+
+.barra-3-discografia{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+.barra-3-discografia a{
+    margin: 10px;
+    color: white;
+    text-decoration: overline;
+}
+
+.barra-4-discografia{
+    width: 100%;
+    display: flex;
+    justify-content: end;   
+} 
+.barra-4-discografia a{
+    margin: 10px;
+    color: white;
+    text-decoration: overline;
+}
+
+.contenido-principal-discografia{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(161, 20, 20);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.portadas-discografia{
+    width: 100%;
+    height: 100%;
+}
+.portadas-discografia h2 {
+    margin-top: 10px;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: black;
+}
+.portadas-discografia h3{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: goldenrod;
+}
+.portadas-discografia img{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    box-shadow: rgba(214, 180, 27, 0.6)  0px 150px 100px 100px;
+    
+}
+.albumnes{
+    text-align:  center;
+}
+
+
+
+.sencillos-discografia{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(161, 20, 20);
+}
+.sencillos-discografia h3{
+    margin-top: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: goldenrod;
+
+}
+.sencillos-discografia img{
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    box-shadow: rgba(214, 180, 27, 0.6)  0px 150px 100px 100px;
+}
+
+.sencillos{
+    text-align: center;
+}
+
+
+@media (min-width: 480px)
+{
+    .Barra-de-navegacion-discografia{
+        width: 100%;
+        height: 20vh;
+    }
+    .Barra-de-navegacion-discografia h1{
+        font-size: 40px;
+        margin-top: 8px;
+    }
+    .Barra-de-navegacion-discografia a{
+        font-size: 15px;
+    }
+    .contenido-principal-discografia h2{
+        font-size: 28px;
+    }
+    .contenido-principal-discografia h3{
+        font-size: 20px;
+    }
+    .contenido-principal-discografia img{
+        width: 200px;
+        height: 180px;
+        box-shadow: rgba(214, 180, 27, 0.6)  0px 80px 80px 70px;
+    }
+    .contenido-principal-discografia p{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px)
+{
+    .Barra-de-navegacion-discografia{
+        width: 100%;
+        height: 28vh;
+    }
+    .Barra-de-navegacion-discografia h1{
+        font-size: 60px;
+        margin-top: 10px;
+    }
+    .Barra-de-navegacion-discografia a{
+        font-size: 20px;
+    }
+    .contenido-principal-discografia h2{
+        font-size: 40px;
+    }
+    .contenido-principal-discografia h3{
+        font-size: 30px;
+    }
+    .contenido-principal-discografia img{
+        width: 340px;
+        height: 300px;
+        box-shadow: rgba(214, 180, 27, 0.6)  0px 80px 80px 90px;
+    }
+    .contenido-principal-discografia p{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1024px)
+{
+    .Barra-de-navegacion-discografia{
+        width: 100%;
+        height: 37vh;
+    }
+    .Barra-de-navegacion-discografia h1{
+        font-size: 85px;
+        margin-top: 14px;
+    }
+    .Barra-de-navegacion-discografia a{
+        font-size: 25px;
+    }
+    .contenido-principal-discografia h2{
+        font-size: 50px;
+    }
+    .contenido-principal-discografia h3{
+        font-size: 35px;
+    }
+    .contenido-principal-discografia img{
+        width: 400px;
+        height: 370px;
+        box-shadow: rgba(214, 180, 27, 0.6)  0px 150px 120px 120px;
+    }
+    .contenido-principal-discografia p{
+        font-size: 21px;
+    }
+}

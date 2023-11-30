@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.Barra-de-navegacion{
+    width: 100%;
+    height: 30vh;
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+}
+.Barra-de-navegacion h1{
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+.Barra-de-navegacion a{
+    font-size: 30px;
+}
+
+
+.barra-2{
+    width: 100%;
+    display: flex;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 2%;
+    list-style-type: none;
+}
+
+.barra-3{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+.barra-3 a{
+    margin: 10px;
+    color: white;
+    text-decoration: overline;
+}
+
+
+.barra-4{
+    width: 100%;
+    display: flex;
+    justify-content: end;   
+} 
+.barra-4 a{
+    margin: 10px;
+    color: white;
+    text-decoration: overline;
+}
+
+.contenido-principal{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    background-color: darkgrey;
+}
+
+.imagen1-inicio{
+    width: 30%;
+    height: 100%;
+    margin: 1%;
+    padding: 2%;
+    margin-right: 30px;
+}
+.imagen1-inicio img{
+    width: 400px;
+    height: 500px;
+    box-shadow: rgb(4, 137, 214, 0.3)  20px 55px;
+}
+
+.parrafo1-inicio{
+    width: 20%;
+    height: 100%;
+    margin: 1%;
+    padding: 2% 1%;
+    
+}
+.parrafo1-inicio p{
+    width: 180px;
+    height: 100px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.contenido2-inicio{
+    width: 40%;
+    height: 100%;
+    margin: 1%;
+    padding: 5% 0;
+}
+.contenido2-inicio h2{
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    color: darkblue;
+}
+.contenido2-inicio img{
+    padding: 1%;
+    width: 350px;
+    height: 450px;
+    display: block;
+    text-align: right;
+    box-shadow: rgba(2, 215, 243, 0.3) 20px 50px;
+    
+}
+
+
+.registroycompartir{
+
+    width: 25%;
+    height: 100%;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 11%;
+    
+}
+
+@media (min-width: 480px)
+{
+    .Barra-de-navegacion{
+        width: 100%;
+        height: 20vh;
+    }
+    .Barra-de-navegacion h1{
+        font-size: 40px;
+        margin-top: 8px;
+    }
+    .Barra-de-navegacion a{
+        font-size: 15px;
+    }
+    .contenido-principal{
+        width: 100%;
+        height: 700px;
+        flex-direction: column;
+        
+    }
+    .imagen1-inicio img
+    {
+        width: 200px;
+        height: 250px;
+        box-shadow: rgb(4, 137, 214, 0.3)  15px 10px;
+        
+    }
+    .parrafo1-inicio
+    {
+        position: relative;
+        bottom: 265px;
+        left: 50%;
+    }
+    .parrafo1-inicio p
+    {
+        width: 200px;
+        height: 160px;
+        font-size: 11px;
+    }
+    .contenido2-inicio
+    {
+        position: relative;
+        bottom: 200px;
+  
+    }
+    .contenido2-inicio h2
+    {
+        font-size: 20px;
+    }
+    .contenido2-inicio img
+    {
+        width: 240px;
+        height: 300px;
+        position: relative;
+        box-shadow: rgba(2, 215, 243, 0.3) 10px 20px;
+    }
+    .registroycompartir
+    {
+        position: relative;
+        bottom: 590px;
+        left: 55%;
+    }
+
+}
+
+@media (min-width: 768px)
+{
+        .Barra-de-navegacion{
+            width: 100%;
+            height: 28vh;
+        }
+        .Barra-de-navegacion h1{
+            font-size: 65px;
+            margin-top: 10px;
+        }
+        .Barra-de-navegacion a{
+            font-size: 20px;
+        }
+        .contenido-principal{
+            width: 100%;
+            height: 980px;
+            flex-direction: column;
+            
+        }
+        .imagen1-inicio img
+        {
+            width: 350px;
+            height: 400px;
+            box-shadow: rgb(4, 137, 214, 0.3)  15px 10px;
+            
+        }
+        .parrafo1-inicio
+        {
+            position: relative;
+            bottom: 380px;
+            left: 50%;
+        }
+        .parrafo1-inicio p
+        {
+            width: 350px;
+            height: 160px;
+            font-size: 16px;
+        }
+        .contenido2-inicio
+        {
+            position: relative;
+            bottom: 250px;
+      
+        }
+        .contenido2-inicio h2
+        {
+            font-size: 35px;
+        }
+        .contenido2-inicio img
+        {
+            width: 400px;
+            height: 450px;
+            position: relative;
+            box-shadow: rgba(2, 215, 243, 0.3) 10px 10px;
+        }
+        .registroycompartir
+        {
+            position: relative;
+            bottom: 760px;
+            left: 60%;
+        } 
+}
+
+@media (min-width: 1024px)
+{
+    .Barra-de-navegacion{
+        width: 100%;
+        height: 35vh;
+    }
+    .Barra-de-navegacion h1{
+        font-size: 85px;
+        margin-top: 14px;
+    }
+    .Barra-de-navegacion a{
+        font-size: 25px;
+    }
+    .contenido-principal{
+        width: 100%;
+        height: 1220px;
+        flex-direction: column;
+        
+    }
+    .imagen1-inicio img
+    {
+        width: 500px;
+        height: 550px;
+        box-shadow: rgb(4, 137, 214, 0.3)  15px 10px;
+        
+    }
+    .parrafo1-inicio
+    {
+        position: relative;
+        bottom: 520px;
+        left: 55%;
+    }
+    .parrafo1-inicio p
+    {
+        width: 400px;
+        height: 160px;
+        font-size: 20px;
+    }
+    .contenido2-inicio
+    {
+        position: relative;
+        bottom: 250px;
+  
+    }
+    .contenido2-inicio h2
+    {
+        font-size: 40px;
+    }
+    .contenido2-inicio img
+    {
+        width: 550px;
+        height: 500px;
+        position: relative;
+        box-shadow: rgba(2, 215, 243, 0.3) 10px 10px;
+    }
+    .registroycompartir
+    {
+        position: relative;
+        bottom: 820px;
+        left: 65%;
+    }
+}
+/*
+.registroycompartir p{
+    font-size: 10px;
+}
+.registroycompartir form{
+    width: 10px;
+    height: 10px;
+}
+.registroycompartir label, input{
+    font-size: 5px;
+}
+.registroycompartir button{
+    width: 10px;
+    height: 10px;
+}
+
+.rating span{
+    font-size: 10px;
+}
+.result{
+    font-size: 10px;
+}
+.result span{
+    font-size: 10px;
+}
+
+.compartir{
+    font-size: 10px;
+}*/

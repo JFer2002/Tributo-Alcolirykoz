@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Tributo a Alcolirykoz</title>
+</head>
+<body>
+    <header class="Barra-de-navegacion">
+        <h1 >Tributo a AlcolirykoZ</h1> 
+        <nav class="barra-2">
+            
+            <div class="barra-3">
+                <li><a href="">Inicio</a></li>
+                <li><a href="paginas/Biografia.html">Biografía</a></li>
+            </div>
+
+            <div class="barra-4">
+                <li><a href="paginas/Discografia.html">Discografía</a></li>
+                <li><a href="paginas/Videoclips.html">Videoclips</a></li>
+            </div>
+            
+        </nav>
+    </header>
+
+    <main class="contenido-principal">
+        <div class="imagen1-inicio">
+            <img src="./imagenes/i1.jpg" alt="Imagen del grupo Alcolirykoz">
+        </div>
+
+        <div class="parrafo1-inicio">
+            <p>Los AlcolirykoZ son un grupo de rap colombiano nacido en Medellín, concretamente en el barrio Aranjuez, en la comuna 4 de la ciudad.
+                El grupo está conformado por tres integrantes: Juan Carlos Fonnegra, más conocido como Aka Gambeta; Carlos Andrés, más conocido como Aka Kaztro,
+                los cuales son primos, y el último DJ Gustavo Adolfo Fa-zeta. Desde el año 1999, la agrupación existió con el nombre de "Arnez" y en el 2004 
+                fue cuando aparecieron con su nombre actual, "Alcolirykoz". Su primer demo fue "En letras mayúsculas", el cual fue lanzado en el 2007.
+                Las composiciones musicales de Alcolirykoz son muy originales, ya que utilizan géneros como la salsa, el bolero, el jazz y hasta el soul 
+                en sus producciones musicales.</p>
+        </div>
+        
+        <div class="contenido2-inicio">
+            <h2>Las neaZ de AranjueZ</h2>
+
+            <img src="./imagenes/i2.jpg" alt="Logo del grupo Alcolirykoz">
+            
+        </div>
+
+        <div class = "registroycompartir">
+
+            <p>Registrate aqui:</p>
+            <form action="procesar.php" method="POST">
+
+                <label for="Correo">Correo:</label>
+                <input type="text" id="Corre" name="Correo">
+                <label for="Contraseña">Contraseña:</label>
+                <input type="text" id="Contraseña" name="Contraseña">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Restablecer">
+    
+             </form>
+
+             <p>Envianos tus sugerencias</p>
+             <label for="sugerencias">sugerencias:</label>
+             <input type="text" name="sugerencias">
+
+             <button>
+                <p>Enviar</p>
+             </button>
+
+             <p>Por favor Calificanos:</p>
+             <div class="rating">
+                <span class="star" data-rating="1">&#9733;</span>
+                <span class="star" data-rating="2">&#9733;</span>
+                <span class="star" data-rating="3">&#9733;</span>
+                <span class="star" data-rating="4">&#9733;</span>
+                <span class="star" data-rating="5">&#9733;</span>
+              </div>
+              
+              <div class="result">
+                Tu calificación: <span id="rating">0</span>
+              </div>
+              
+              <div class="compartir">
+                <p>Si te gusto por favor comparte:</p>
+                <button onclick="compartirEnRedSocial()">Compartir</button>
+              </div>
+              
+
+              <script>
+                  function compartirEnRedSocial() {
+                      const url = window.location.href; // Obtiene la URL de la página actual
+                      const compartirURL = "https://example.com/compartir.php?url=" + encodeURIComponent(url);
+                      window.open(compartirURL, "_blank");
+                  }
+              </script>
+
+        </div>
+        
+         
+    </main>
+
+    <footer>
+        <p>Juan Fernando Guio Alzate</p>
+    </footer>
+
+</body>
+</html>
